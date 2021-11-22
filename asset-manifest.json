@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sticky-notes-app/static/css/main.e84e55bd.chunk.css",
+    "main.js": "/sticky-notes-app/static/js/main.4c00be1b.chunk.js",
+    "main.js.map": "/sticky-notes-app/static/js/main.4c00be1b.chunk.js.map",
+    "runtime-main.js": "/sticky-notes-app/static/js/runtime-main.4ce29ac9.js",
+    "runtime-main.js.map": "/sticky-notes-app/static/js/runtime-main.4ce29ac9.js.map",
+    "static/js/2.b035136a.chunk.js": "/sticky-notes-app/static/js/2.b035136a.chunk.js",
+    "static/js/2.b035136a.chunk.js.map": "/sticky-notes-app/static/js/2.b035136a.chunk.js.map",
+    "index.html": "/sticky-notes-app/index.html",
+    "static/css/main.e84e55bd.chunk.css.map": "/sticky-notes-app/static/css/main.e84e55bd.chunk.css.map",
+    "static/js/2.b035136a.chunk.js.LICENSE.txt": "/sticky-notes-app/static/js/2.b035136a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ce29ac9.js",
+    "static/js/2.b035136a.chunk.js",
+    "static/css/main.e84e55bd.chunk.css",
+    "static/js/main.4c00be1b.chunk.js"
+  ]
+}
