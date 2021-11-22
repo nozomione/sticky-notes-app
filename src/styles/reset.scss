@@ -1,0 +1,66 @@
+@import './global.scss';
+
+* {
+	box-sizing: border-box;
+}
+*,
+*:hover {
+	transition: all 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+*:focus {
+	outline: none;
+}
+
+html {
+	font-size: 16px;
+	height: 100%;
+}
+
+body {
+	background: #111;
+	background: -webkit-linear-gradient(to right, #434343, #111);
+	background: linear-gradient(to right, #434343, #111);
+	box-sizing: border-box;
+	color: var(--body-color);
+	font-family: sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+
+svg {
+	pointer-events: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+@media (max-width: 680px) {
+	html {
+		font-size: 20px;
+	}
+}

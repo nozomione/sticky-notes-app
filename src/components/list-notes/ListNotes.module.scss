@@ -1,0 +1,12 @@
+.list-notes {
+	--grid-gap: 15px;
+	$note-width: 260px;
+
+	display: grid;
+	grid-gap: var(--grid-gap);
+	grid-template-columns: repeat(auto-fit, minmax($note-width, 1fr));
+}
+
+.info-text {
+	color: var(--gray-medium);
+}

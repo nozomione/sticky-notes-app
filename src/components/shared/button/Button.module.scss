@@ -1,0 +1,10 @@
+.btn {
+	background: none;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+
+	&:disabled {
+		cursor: not-allowed;
+	}
+}

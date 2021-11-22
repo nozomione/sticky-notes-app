@@ -1,0 +1,11 @@
+.btn-add {
+	button {
+		background: none;
+		border: none;
+		color: var(--gray-medium);
+
+		&:hover {
+			color: var(--hover-light);
+		}
+	}
+}

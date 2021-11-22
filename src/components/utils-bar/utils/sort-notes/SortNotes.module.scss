@@ -1,0 +1,16 @@
+.btn-sort {
+	align-self: flex-end;
+	> button {
+		color: var(--gray-medium);
+
+		&:hover {
+			color: var(--hover-light);
+		}
+
+		&:disabled {
+			&:hover {
+				color: var(--gray-medium);
+			}
+		}
+	}
+}

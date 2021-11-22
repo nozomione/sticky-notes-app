@@ -1,0 +1,24 @@
+.clear-storage {
+	> button {
+		background: var(--gray-light);
+		border-radius: 30px;
+		color: var(--gray-dark);
+		display: flex;
+		align-items: center;
+		font-size: 0.7rem;
+		padding: var(--btn-padding);
+
+		&:hover {
+			background: var(--hover-light);
+			border-color: var(--hover-light);
+			color: var(--hover-dark);
+		}
+
+		&:disabled {
+			background: var(--gray-medium);
+			&:hover {
+				color: var(--gray-dark);
+			}
+		}
+	}
+}

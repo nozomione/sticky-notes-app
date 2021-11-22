@@ -1,0 +1,26 @@
+.date-modified {
+	--font-size: 10px;
+	--transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+	font-size: var(--font-size);
+	position: relative;
+
+	.date {
+		display: flex;
+		align-items: center;
+		animation: fadeIn 0.3s var(--transition-timing-function) forwards;
+	}
+
+	&.saved {
+		animation: fadeIn 0.3s var(--transition-timing-function) forwards;
+	}
+
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+}

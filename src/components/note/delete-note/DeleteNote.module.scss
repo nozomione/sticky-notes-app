@@ -1,0 +1,9 @@
+.btn-delete {
+	background: none;
+	border: none;
+	color: var(--gray-dark);
+
+	&:hover {
+		color: var(--hover-dark);
+	}
+}

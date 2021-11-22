@@ -1,0 +1,46 @@
+.search {
+	&-bar {
+		margin: 0;
+		position: relative;
+		width: 50%;
+
+		::placeholder {
+			color: var(--gray-medium);
+			opacity: 1;
+		}
+
+		input {
+			background: transparent;
+			border: var(--gray-medium) 3px solid;
+			border-radius: 30px;
+			color: var(--gray-light);
+			font-size: 1rem;
+			padding: 8px 12px 8px 40px;
+			width: 100%;
+
+			+ label + span:after {
+				content: '\26B2';
+				color: var(--gray-medium);
+				display: block;
+				font-size: 32px;
+				font-weight: bold;
+				position: absolute;
+				top: 8px;
+				left: 16px;
+				transform: rotate(-45deg);
+			}
+
+			&:focus {
+				border-color: var(--hover-light);
+
+				+ label + span:after {
+					color: var(--hover-light);
+				}
+			}
+
+			&:disabled {
+				cursor: not-allowed;
+			}
+		}
+	}
+}

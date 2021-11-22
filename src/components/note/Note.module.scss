@@ -1,0 +1,106 @@
+.note {
+	--note-height: 220px;
+	--note-font-size: 0.85rem;
+	--note-default-height: 160px;
+	--note-collapsed-height: 30px;
+	--note-font-size-small: 0.75rem;
+	--padding: 8px;
+	--transition: all 0.2s cubic-bezier(0.19, 1, 0.22, 1);
+
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	font-size: var(--note-font-size);
+	min-height: var(--note-height);
+	overflow: hidden;
+	position: relative;
+	transition: var(--transition);
+
+	&-pink {
+		background: var(--sticky-pink);
+	}
+
+	&-blue {
+		background: var(--sticky-blue);
+	}
+
+	&-yellow {
+		background: var(--sticky-yellow);
+	}
+
+	&-green {
+		background: var(--sticky-green);
+	}
+
+	&-gray {
+		background: var(--sticky-gray);
+	}
+
+	&-purple {
+		background: var(--sticky-purple);
+	}
+
+	&-header {
+		display: flex;
+		justify-content: space-between;
+		padding: 5px 0;
+		position: relative;
+
+		> h6 {
+			align-self: center;
+			font-size: var(--note-font-size-small);
+			font-weight: 300;
+			margin-top: 3px;
+			margin-right: auto;
+		}
+	}
+
+	&-body {
+		color: var(--body-color);
+		max-height: var(--note-default-height);
+		min-height: var(--note-default-height);
+		overflow-y: scroll;
+		padding: var(--padding);
+		position: relative;
+		right: -15px;
+		transition: var(--transition);
+
+		&-editable {
+			margin-left: -8px;
+			min-height: 150px;
+			white-space: pre-wrap;
+			word-wrap: break-word;
+		}
+	}
+
+	&-footer {
+		display: flex;
+		justify-content: space-between;
+		padding: var(--padding);
+
+		.date {
+			font-size: var(--note-font-size-small);
+		}
+	}
+
+	&.collapsed {
+		max-height: 0;
+		min-height: var(--note-collapsed-height);
+		overflow: hidden;
+
+		.note {
+			&-body {
+				max-height: 0;
+				min-height: 0;
+				padding: 0;
+				overflow: inherit;
+			}
+
+			&-footer {
+				overflow: inherit;
+
+				button {
+					display: none;
+				}
+			}
+		}
+	}
+}

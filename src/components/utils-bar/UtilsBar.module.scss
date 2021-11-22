@@ -1,0 +1,14 @@
+.utility-bar {
+	padding: 0.05rem;
+
+	> div {
+		display: flex;
+		justify-content: space-between;
+		padding: 16px 0;
+		width: 100%;
+
+		+ div {
+			padding-top: 0;
+		}
+	}
+}

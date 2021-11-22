@@ -1,0 +1,79 @@
+:root {
+	--body-color: #222;
+	--gray-dark: #555;
+	--gray-medium: #bbb;
+	--gray-light: #eee;
+	--hover-dark: #222;
+	--hover-light: #f2f2f2;
+	--sticky-pink: #eb6092;
+	--sticky-blue: #4ab6d9;
+	--sticky-yellow: #f9c847;
+	--sticky-green: #abcc51;
+	--sticky-gray: #90909e;
+	--sticky-purple: #be29ec;
+
+	--btn-padding: 8px 16px;
+
+	--xxxs: 8px;
+	--xxs: 12px;
+	--xs: 16px;
+	--sm: 20px;
+	--s: 24px;
+	--md: 32px;
+	--lg: 48px;
+	--xl: 64px;
+	--xxl: 96px;
+	--xxxl: 128px;
+}
+
+.sr-only {
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+}
+
+.icon--xxxs {
+	width: var(--xxxs);
+	height: var(--xxxs);
+}
+.icon--xxs {
+	width: var(--xxs);
+	height: var(--xxs);
+}
+.icon--xs {
+	width: var(--xs);
+	height: var(--xs);
+}
+.icon--s {
+	width: var(--s);
+	height: var(--s);
+}
+.icon--sm {
+	width: var(--sm);
+	height: var(--sm);
+}
+.icon--md {
+	width: var(--md);
+	height: var(--md);
+}
+.icon--lg {
+	width: var(--lg);
+	height: var(--lg);
+}
+.icon--xl {
+	width: var(--xl);
+	height: var(--xl);
+}
+.icon--xxl {
+	width: var(--xxl);
+	height: var(--xxl);
+}
+.icon--xxxl {
+	width: var(--xxxl);
+	height: var(--xxxl);
+}
